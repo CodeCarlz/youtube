@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: roboto, arial;
+    background-color: white;
+    padding-top: 6rem;
+    padding-left: 10.6rem;
+}
+
+::-webkit-scrollbar{
+    width: 3px;
+
+   
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+
+.video-preview:hover::-webkit-scrollbar-thumb,
+.sidebar:hover::-webkit-scrollbar-thumb{ 
+    background-color: gray;
+    height: 50px;
+    border-radius: 1.5px;
+}
+

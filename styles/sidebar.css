@@ -1,0 +1,78 @@
+.sidebar{
+    position:fixed;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 10.5rem;
+    padding-top: 5px;
+    overflow: scroll;
+    
+}
+
+
+.home-container{
+    border-bottom: 1px solid gray;
+    height: 250px;
+}
+.sidebar-link{
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    height: 30px;
+    width: 130px;
+    margin-left: 20px;
+    gap: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(214, 208, 208);
+}
+
+.sidebar-img{
+    height: 20px;
+}
+
+.subscription-container{
+    margin-top: 15px;
+    font-size: 13px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    height: 230px;
+}
+
+
+.Subscriptions{
+    font-size: 14px;
+    color: black;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+.sidebar-subs{
+    display: flex;
+    align-items: center;
+    padding: 10px 5px;
+    height: 25px;
+    width: 130px;
+    margin-left: 20px;
+    gap: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sidebar-subs:hover{
+    background-color: rgb(214, 208, 208);
+}
+
+.subscriptions-profile{
+    height: 25px;
+    border-radius: 12.5px;
+}
+
+

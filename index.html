@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/general.css">
+   <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Youtube Clone</title>
+</head>
+<body>
+    <div class="header">
+        <div class="relative">
+            <div class="left-section">
+                <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+                <a href="index.html"><img class="youtube-logo" src="icons/youtube-logo.svg" alt=""></a>
+            </div>
+            <div class="middle-section">
+                <input class="search-box" type="text" placeholder="Search">
+                <button class="search-button imgs">
+                    <img class="search-icon" src="icons/search.svg" alt="">
+                    <div class="tooltip">Search</div>
+                </button>
+                <button class="voice-button imgs">
+                    <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+                    <div class="tooltip">Voice Search</div>
+                </button>   
+            </div>
+            <div class="right-section">
+                <button class="search-button-mobile_only">
+                    <img class="search-icon" src="icons/search.svg" alt="">
+                </button>
+                <div class="imgs" id="u-hide">
+                    <img src="icons/upload.svg" alt="" class="upload-icon">
+                    <div class="tooltip">
+                        Upload
+                    </div>
+                </div>
+                <div class="imgs">
+                    <img id="u-hide" src="icons/youtube-apps.svg" alt="" class="youtube-apps-icon">
+                    <div class="tooltip">
+                        Youtube Apps
+                    </div>
+                </div>
+                <div class="imgs notifications">
+                    <img src="icons/notifications.svg" alt="" class="notification-icon">
+                    <div class="notifications-num">5</div>
+                    <div class="tooltip ">
+                        Notifications
+                    </div>
+                </div>
+                <div class="imgs">
+                    <img src="icons/my-channel.gif" alt="" class="my-channel-icon">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <div class="home-container">
+            <div class="sidebar-link">
+                <a href="index.html"><img class="sidebar-img" src="icons/home.svg" alt=""></a>
+                <div class="sidebar-label">Home</div>
+            </div>
+            <div class="sidebar-link">
+                <img class="sidebar-img" src="icons/explore.svg" alt="">
+                <div class="sidebar-label">Explore</div>
+            </div>
+    
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/feed/subscriptions"><img class="sidebar-img" src="icons/subscriptions.svg" alt=""></a>
+                <div class="sidebar-label">Subscriptions</div>
+            </div>
+    
+            <div class="sidebar-link">
+                <img class="sidebar-img" src="icons/originals.svg" alt="">
+                <div class="sidebar-label">Originals</div>
+            </div>
+    
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/channel/UC-9-kyTW8ZkZNDHQJ6FgpwQ"><img class="sidebar-img" src="icons/youtube-music.svg"
+                        alt=""></a>
+                <div class="sidebar-label">Youtube Music</div>
+            </div>
+            <div class="sidebar-link">
+                <a href="https://www.youtube.com/feed/library"><img class="sidebar-img" src="icons/library.svg" alt=""></a>
+                <div class="sidebar-label">Library</div>
+            </div>
+        </div>
+        
+        <div class="subscription-container">
+            <div class="Subscriptions">Subscriptions</div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/Kuyanic.jpg" alt="">
+                <div class="subscriptions-name">Kuyanic</div>
+            </div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/mrbeast.jpg" alt="">
+                <div class="subscriptions-name">MrBeast</div>
+            </div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/Team-payaman.jpg" alt="">
+                <div class="subscriptions-name">Cong Tv</div>
+            </div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/Destination.jpeg" alt="">
+                <div class="subscriptions-name">Destination..</div>
+            </div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/dotown.jpg" alt="">
+                <div class="subscriptions-name">Dotown</div>
+            </div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/lofi-girl.jpg" alt="">
+                <div class="subscriptions-name">Lofi Girl</div>
+            </div>
+            <div class="sidebar-subs">
+                <img class="subscriptions-profile" src="youtube-profile/AI uncovered.jpg" alt="">
+                <div class="subscriptions-name">Ai Uncove...</div>
+            </div>
+        </div>  
+    </div>
+    <div class="main">
+        <div class="top-scrollbar">
+            <div class="favorite-channel">All</div>
+            <div class="favorite-channel">Live</div>
+            <div class="favorite-channel">Gaming</div>
+            <div class="favorite-channel">Music</div>
+            <div class="favorite-channel">Lo-fi</div>
+            <div class="favorite-channel">Team Liquid</div>
+            <div class="favorite-channel">Esports</div>
+            <div class="favorite-channel">Playlists</div>
+            <div class="favorite-channel">HTML</div>
+            <div class="favorite-channel">Chillstep</div>
+            <div class="favorite-channel">Python</div>
+            <div class="favorite-channel">Talking Tom & Friends</div>
+            <div class="favorite-channel">Piano</div>
+            <div class="favorite-channel">Iphones</div>
+            <div class="favorite-channel">Animated Films</div>
+            <div class="favorite-channel">Deep House</div>
+            <div class="favorite-channel">Computers</div>
+            <div class="favorite-channel">Manga</div>
+            <div class="favorite-channel">Recently uploaded</div>
+            <div class="favorite-channel">Watched</div>
+            <div class="favorite-channel">New to you</div>
+        </div>
+        <div class="video-preview">
+            <!-- <div class="video-grid">
+              
+                <div class="thumbnail-row">
+                    <a id="videoLink" href="https://www.youtube.com/watch?v=fuhE6PYnRMc&t=13s&pp=ygUSVHJhaW4gVnMgR2lhbnQgUGl0"><img class="thumnail-img" src="thumbnail/Train.webp" alt=""></a>
+                    <div class="thumbnail-time">10.36</div>
+                </div>
+                <div class="channel-info">
+                    <div class="profile-container">
+                        <img class="profile-picture" src="youtube-profile/mrbeast.jpg" alt="">
+                        <div class="asd">
+                            <div class="channel-profile">
+                                <img class="channel-picture" src="youtube-profile/mrbeast.jpg" alt="">
+                                <div class="channel-info">
+                                    <p class="channel-author">Mrbeast</p>
+                                    <p class="channel-stats">172M Subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="video-info">
+                        <p class="video-title">Train Vs Giant Pit </p>
+                        <p class="video-author">MrBeast</p>
+                        <p class="video-stats">114M views &#183; 2 weeks ago</p>
+                    </div>
+            </div>
+        </div> -->
+
+
+        <!-- <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=u8xBWeq1q7c&t=4607s&pp=ygVZRnVsbCBHYW1lOiBUYWxvbiBFc3BvcnRzIHZzIFRlYW0gTGlxdWlkIEdhbWUgMyAoQk8zKSB8IFJpeWFkaCBNYXN0ZXJzIDIwMjMgUGxheU9mZnMgRGF5IDk%3D"><img class="thumnail-img" src="thumbnail/Talon.webp" alt=""></a>
+                <div class="thumbnail-time">1:28:22</div>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/Kuyanic.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/Kuyanic.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">KuyaNic</p>
+                                <p class="channel-stats">185K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Full Game: Talon Esports vs Team Liquid Game 3 (BO3) | Riyadh Masters 2023 PlayOffs Day 9  </p>
+                    <p class="video-author">Kuyanic</p>
+                    <p class="video-stats">10K views &#183; 19 hours ago</p>
+                </div>
+            </div> 
+        </div>
+
+
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=Q3RxzmnWafs&t=37s&pp=ygUGWU9LT1RP"><img class="thumnail-img" src="thumbnail/cong.webp" alt=""></a> 
+                <div class="thumbnail-time">22:49</div>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/Team-payaman.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/Team-payaman.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">Cong Tv</p>
+                                <p class="channel-stats">11.3M Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">YOKOTO</p>
+                    <p class="video-author">Cong Tv</p>
+                    <p class="video-stats">2.6M views &#183; 4 days ago</p>
+                </div>
+            </div> 
+        </div>
+
+
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=bmBei7jXV-E&pp=ygUiUnVzaGluZyA1IEhhcnBvb25zIEJyb2tlIFRoZSBHYW1lIQ%3D%3D"><img class="thumnail-img" src="thumbnail/omniknight.webp" alt=""></a>
+                <div class="thumbnail-time">10:37</div>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/dotown.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/dotown.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">Dotown</p>
+                                <p class="channel-stats">104K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Rushing 5 Harpoons Broke The Game!</p>
+                    <p class="video-author">Dotown</p>
+                    <p class="video-stats">82K views &#183; 2 weeks ago</p>
+                </div>
+            </div> 
+        </div>
+
+
+        <div class="video-grid">
+            <div class="thumbnail-row">
+               <a href="https://www.youtube.com/watch?v=jfKfPfyJRdk&pp=ygU4IEJlc3Qgb2YgbG9maSBoaXAgaG9wIDIwMjEg4pyoIC0gYmVhdHMgdG8gcmVsYXgvc3R1ZHkgdG8%3D"><img class="thumnail-img" src="thumbnail/lofi-song.webp" alt=""></a> 
+                <div class="thumbnail-live">Live</div>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/lofi-girl.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/lofi-girl.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">Lofi Girl</p>
+                                <p class="channel-stats">13.1M Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Best of lofi hip hop 2021 ✨ - beats to relax/study to</p>
+                    <p class="video-author">Lofi Girl</p>
+                    <p class="video-stats">26M views &#183; 1 year ago</p>
+                </div>
+            </div> 
+        </div>
+
+
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=0nZuYyXET3s&pp=ygU-RHViYWkncyBDcmF6eSBVbmRlcndhdGVyIFRyYWluIGFuZCBPdGhlciBUaGluZ3MgI09ubHkgaW4gRHViYWk%3D"><img class="thumnail-img" src="thumbnail/Dubai.webp" alt=""></a>
+                <div class="thumbnail-time">4:41</div>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/Destination.jpeg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/Destination.jpeg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">Destination Tips</p>
+                                <p class="channel-stats">282K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">Dubai's Crazy Underwater Train and Other Things #Only in Dubai</p>
+                    <p class="video-author">Destination Tips</p>
+                    <p class="video-stats">3M views &#183; 1 year ago</p>
+                </div>
+            </div> 
+        </div>
+
+
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XKMvk5hWDfo&t=11s&pp=ygUhIEhvdyBQb3dlcmZ1bCBXaWxsIEFJIEJlIEluIDIwMzA_"><img class="thumnail-img" src="thumbnail/AI.webp" alt="">
+                    <div class="thumbnail-time">12:58</div></a>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">AI Uncovered</p>
+                                <p class="channel-stats">36.6K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How Powerful Will AI Be In 2030?</p>
+                    <p class="video-author">AI Uncovered</p>
+                    <p class="video-stats">64k views &#183; 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XKMvk5hWDfo&t=11s&pp=ygUhIEhvdyBQb3dlcmZ1bCBXaWxsIEFJIEJlIEluIDIwMzA_"><img class="thumnail-img" src="thumbnail/AI.webp" alt="">
+                    <div class="thumbnail-time">12:58</div></a>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">AI Uncovered</p>
+                                <p class="channel-stats">36.6K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How Powerful Will AI Be In 2030?</p>
+                    <p class="video-author">AI Uncovered</p>
+                    <p class="video-stats">64k views &#183; 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XKMvk5hWDfo&t=11s&pp=ygUhIEhvdyBQb3dlcmZ1bCBXaWxsIEFJIEJlIEluIDIwMzA_"><img class="thumnail-img" src="thumbnail/AI.webp" alt="">
+                    <div class="thumbnail-time">12:58</div></a>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">AI Uncovered</p>
+                                <p class="channel-stats">36.6K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How Powerful Will AI Be In 2030?</p>
+                    <p class="video-author">AI Uncovered</p>
+                    <p class="video-stats">64k views &#183; 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XKMvk5hWDfo&t=11s&pp=ygUhIEhvdyBQb3dlcmZ1bCBXaWxsIEFJIEJlIEluIDIwMzA_"><img class="thumnail-img" src="thumbnail/AI.webp" alt="">
+                    <div class="thumbnail-time">12:58</div></a>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">AI Uncovered</p>
+                                <p class="channel-stats">36.6K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How Powerful Will AI Be In 2030?</p>
+                    <p class="video-author">AI Uncovered</p>
+                    <p class="video-stats">64k views &#183; 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XKMvk5hWDfo&t=11s&pp=ygUhIEhvdyBQb3dlcmZ1bCBXaWxsIEFJIEJlIEluIDIwMzA_"><img class="thumnail-img" src="thumbnail/AI.webp" alt="">
+                    <div class="thumbnail-time">12:58</div></a>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">AI Uncovered</p>
+                                <p class="channel-stats">36.6K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How Powerful Will AI Be In 2030?</p>
+                    <p class="video-author">AI Uncovered</p>
+                    <p class="video-stats">64k views &#183; 1 month ago</p>
+                </div>
+            </div> 
+        </div>
+        
+        <div class="video-grid">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XKMvk5hWDfo&t=11s&pp=ygUhIEhvdyBQb3dlcmZ1bCBXaWxsIEFJIEJlIEluIDIwMzA_"><img class="thumnail-img" src="thumbnail/AI.webp" alt="">
+                    <div class="thumbnail-time">12:58</div></a>
+            </div>
+            <div class="channel-info">
+                <div class="profile-container">
+                    <img class="profile-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                    <div class="asd">
+                        <div class="channel-profile">
+                            <img class="channel-picture" src="youtube-profile/AI uncovered.jpg" alt="">
+                            <div class="channel-info">
+                                <p class="channel-author">AI Uncovered</p>
+                                <p class="channel-stats">36.6K Subscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">How Powerful Will AI Be In 2030?</p>
+                    <p class="video-author">AI Uncovered</p>
+                    <p class="video-stats">64k views &#183; 1 month ago</p>
+                </div>
+            </div> 
+        </div> -->
+        
+    </div>
+    <script src="index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

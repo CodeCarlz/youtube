@@ -1,0 +1,231 @@
+/* @media  screen and (max-width: 650px) {
+    .middle-section{
+        display: none;
+    }
+    .left-section{
+        margin-right: 0;
+    }
+    .right-section{
+        margin-left: 0;
+        gap: 10px;
+    }
+    
+    .search-button-mobile_only{
+        display: inline;
+    }
+
+    body{
+        padding-left: 45px;
+    }
+    .sidebar{
+        max-width: 60px;
+    }
+
+    .sidebar-link{
+        max-width: 40px;
+    }
+
+    .sidebar-label{
+        display: none;
+    }
+
+    body > div.sidebar > div.subscription-container
+    {
+        display: none;
+    }
+    body > div.sidebar > div.home-container >.sidebar-link{
+        margin-left: 5px;
+    }
+
+
+} */
+
+/* @media screen and (max-width: 340px) {
+    .youtube-logo{
+        display: none;
+    }
+    .video-grid{
+        min-width: 245px;
+    }
+    .main{
+        min-width: 250px;
+    }
+    .sidebar{
+        display: none;
+    }
+    body{
+        padding-left: 0;
+    }
+} */
+
+@media screen and (width > 1800px) {
+    .video-preview {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    .video-grid{
+        min-width: 300px;
+    }
+}
+
+
+@media screen and (width < 1800px) {
+    .video-preview {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .video-grid{
+        min-width: 300px;
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 1450px) {
+    .video-preview {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .video-grid{
+        min-width: 300px;
+        max-width: 700px;
+    }
+    body{
+        padding-left: 45px;
+    }
+    .sidebar{
+        max-width: 60px;
+    }
+
+    .sidebar-link{
+        max-width: 40px;
+    }
+
+    .sidebar-label{
+        /* display: none; */
+        visibility: hidden;
+    }
+
+    /* body > div.sidebar > div.subscription-container
+    {
+        display: none;
+    } */
+
+    .Subscriptions{
+        display: none;
+    }
+    .sidebar-subs{
+    max-width: 40px;
+    }
+    .subscriptions-name{
+        visibility: hidden;
+        /* display: none; */
+    }
+   
+    body > div.sidebar > div.home-container >.sidebar-link,
+    body > div.sidebar > div.subscription-container > div{
+        margin-left: 5px;
+    }
+
+    .top-scrollbar{
+        left: 60px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .video-preview {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .video-grid{
+        min-width: 300px;
+        max-width: 700px;
+    }
+
+    .hidden-sidebar-midium{
+    max-width: 150px;
+    }
+
+    .sidebarLabel-midium{
+        visibility: visible;
+    }
+
+    .subscriptionsNames{
+        visibility: visible;
+        min-width: 80px;
+    }
+
+    .bodyMidium{
+        padding-left: 8rem;
+    }
+    
+}
+
+@media screen and (max-width: 720px){
+    .middle-section{
+        display: none;
+    }
+
+    .search-button-mobile_only{
+        display: inline;
+    }
+  
+}
+
+@media screen and (max-width: 600px) {
+    .middle-section{
+        display: none;
+    }
+    .left-section{
+        margin-right: 0;
+    }
+    .right-section{
+        margin-left: 0;
+        gap: 10px;
+    }
+    
+    .video-preview {
+        grid-template-columns: repeat(1, 1fr);
+        padding-right: 0;
+    }
+
+    
+    .video-grid{
+        min-width: 245px;
+        max-width: 700px;
+        margin-right: 0;
+    }
+
+    .search-button-mobile_only{
+        display: inline;
+    }
+    .main{
+        min-width: 250px;
+    }
+    
+    .sidebar{
+       visibility: hidden;
+    }
+    body{
+        padding-left: 0;
+    }
+    .top-scrollbar{
+        left: 0;
+    }
+
+    .hidden-sidebar-class {
+        visibility: visible;
+        max-width: 60px;
+    }
+    .topScroolbartoggle{
+        left: 45px;
+    }
+    
+    .body{
+        padding-left: 40px;
+    }
+}
+
+@media screen and (width < 400px) {
+    .youtube-logo{
+        display: none;
+    }
+    .video-preview{
+        max-height: 100%;
+    }
+}
